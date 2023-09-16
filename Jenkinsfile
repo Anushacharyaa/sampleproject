@@ -8,7 +8,7 @@ checkout scm
 }
 stage('build and test'){
 steps{
-dir('home/anusha/sampleproject'){
+dir('/home/anusha/sampleproject'){
 sh'mkdir -p build'
 sh 'cp sample.html build/'
 sh 'cp sample.css build/'
